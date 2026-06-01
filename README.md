@@ -10,13 +10,13 @@ Floods in India have traditionally been linked to extreme rainfall, but climate 
 > **Note:** The full research paper detailing the quantitative findings, specific thresholds, and in-depth analyses is currently **Under Publication**. This repository contains the code implementations and methodologies used for the study.
 
 ## 🚀 Key Features & Methodology
-1. **Exploratory Data Analysis (EDA):** Trend analysis using statistical methods (e.g., Mann-Kendall Test) to understand the progression of tree loss and flood frequencies.
+1. **Exploratory Data Analysis (EDA):** Trend analysis using statistical methods (e.g., Mann-Kendall Test) to understand the progression of tree loss and flood frequencies (the dataset used was compiled onself).
 2. **Econometric Modeling (Panel Regression):** Utilizing Fixed Effects Panel OLS regression to quantify the elasticity of flood risks against combined ecological and meteorological drivers.
 3. **Machine Learning Predictive Modeling:** - Time-aware, leakage-free data splitting.
    - Comparative evaluation of Random Forest and XGBoost classifiers.
    - High-performance prediction of flood occurrences across different states.
 4. **Model Explainability (XAI):** Utilizing **SHAP (SHapley Additive exPlanations)** to interpret non-linear interactions between variables and uncover critical ecological thresholds.
-
+5. **Geospatial analysis:** Using **geopands** to map the computer risk assement score to various region across indian states.
 ## 🛠️ Tech Stack
 - **Data Manipulation & Analysis:** `pandas`, `numpy`, `statsmodels`, `linearmodels`
 - **Machine Learning:** `scikit-learn`, `xgboost`
