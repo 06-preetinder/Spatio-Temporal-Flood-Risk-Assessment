@@ -48,7 +48,8 @@ Floods in India have traditionally been linked to extreme rainfall, but climate 
 ## 📝 Authors
 - **Preetinderjeet Singh**
 - **Diljot Singh**
-- **Depesh Sharma** - **Dr. Sita Rani**
+- **Depesh Sharma**
+- **Dr. Sita Rani**
 
 ## 📜 License & Citation
 *Copyright (c) 2024. All rights reserved.*
